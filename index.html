@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>programming pathshala</title>
 </head>
+
 <body>
-    <div class="header-container" >
-        <div class="logo" id="logo-head">
-            <img src="images/PpaLogo.webp"  >
-        </div class="links">
-        <div>
+    <div class="navbar-container">
+        <span class="logo" id="logo-head">
+            <img src="images/PpaLogo.webp">
+        </span>
+        <span class="links">
             <ul>
                 <li>Explore Courses</li>
-                <li><a href="#" >Success Stories</a></li>
-                <li><a href="#" >Hire from us</a></li>
-                <li><a href="#" >Campus Program</a></li>
-                <li><a href="#" >Blogs</a></li>
+                <li><a href="#">Success Stories</a></li>
+                <li><a href="#">Hire from us</a></li>
+                <li><a href="#">Campus Program</a></li>
+                <li><a href="#">Blogs</a></li>
             </ul>
-        </div>
-        <div class="auth" >
+        </span>
+        <div class="auth">
             <span><button id="login">Log In</button></span>
-            <span id="signup-cont" ><button id="signup">Sign Up</button></span>
+            <span id="signup-cont">
+                <button id="signup"><span id="button-text">Start free trial</span></button>
+            </span>
         </div>
     </div>
-    <div class="body-front"  style="display: flex;">
-        <div class="promo" >
-            <span>
-                <h1>BE A <br>SOFTWARE ENGINEER</br></h1>
+    <main class="body-front">
+        <div class="promo">
+            <span class="text" id="motive">
+                <h2 id="be-a">BE A TOP</h2>
             </span>
-            <span class="logo" id="banner" >
-                <img src="images/BannerLogoImg.webp" alt="companies tieups" >
+            <span style="color:#3d46be;"><h2>SOFTWARE ENGINEER</h2></span>
+            <span class="logo" id="banner">
+                <img src="images/BannerLogoImg.webp" alt="companies tieups">
             </span>
-            <span>
-                <a href="#" >Start learning for free</a>
+            <span id="text-blbanner">
+                <span id="bn-bt-cont">
+                    <button id="signup" style="width: 200px;"><span id="button-text">Start learning for free</span></button>
+                </span>
                 <p>Watch 100+ free lectures. No commitment, cancel anytime.</p>
             </span>
         </div>
-         <div class="form" id="form1" >
-            <span class="form-head">                
+        
+        <div class="form" id="form1">           
+            <span class="form-head">
                 <p>Stuck in your career? We are here!</p>
                 <h2>Get a Free 1-1 Career Counsel</h2>
             </span>
-            <form >                    
-                <input type="text" name="name" placeholder="Name*" required  >
+            <form>
+                <input type="text" name="name" placeholder="Name*" required>
                 <input type="email" name="email" placeholder="Email*" required>
                 <input type="number" name="number" placeholder="Phone Number*" required>
-               <button type="submit" >Book a call now</button>
-            </form>
-        </div>    
-    </div>
+                <button type="submit">Book a call now</button>
+            </form>            
+        </div>
+        <div class="back-color"></div>        
+    </main>
 </body>
-</html
+
+</html>
